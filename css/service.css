@@ -1,0 +1,162 @@
+header {
+  background-color: white;
+  height: 50px;
+  margin-bottom: 30px;
+}
+
+.header-right {
+  float: right;
+  margin-top: 25px;
+}
+
+.header-left {
+  float: left;
+  padding-top: 30px;
+  margin-left: 15px;
+}
+
+.header-left img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.header-right p {
+  display: inline-block;
+  margin-right: 25px;
+  font-weight: bold;
+  color: black;
+}
+
+.img-wrapper {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.img-wrapper h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+.flex-item {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service1 {
+  display: flex;
+  margin-bottom: 50px;
+  width: 80%;
+  border-top:  1px solid black;
+  border-bottom: 1px solid black; 
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.text{
+  margin-bottom: 20px;
+  margin-left: 20px;
+  white-space: nowrap;
+}
+
+.text h2 {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.service2 {
+  display: flex;
+  margin-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.service3 {
+  display: flex;
+  margin-bottom: 50px;
+  width: 80%;
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.service4 {
+  display: flex;
+  width: 80%;
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.contact {
+  height: 250px;
+  padding-top: 100px;
+  background-color: #ccc;
+  margin-top: 80px;
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.contact p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.btn3{
+  display: block;
+  width: 280px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+  margin: 0 auto;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+}
+
+.footer-left {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 200px;
+  font-size: 11px;
+  color: white;
+  margin-right: 450px;
+}
+
+.footer-right {
+  float: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 11px;
+  color: white;
+  
+}
+
+.footer-right p {
+  display: inline-block;
+  margin-left: 15px;
+  padding-right: 1em;
+  border-right: 1px solid white;
+  color: white;
+}
