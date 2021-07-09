@@ -160,3 +160,25 @@ footer {
   border-right: 1px solid white;
   color: white;
 }
+
+@media screen and (max-width:768px) {
+
+  .service-img {
+    width: 700px;
+    height: 300px;
+  }
+
+  .text {
+    position: absolute;
+    top: 320px;
+    left: 0px;
+  }
+
+  .service-resposnsive {
+    position: relative;
+    /* margin-bottom: 100px; */
+    border-bottom: 1px solid black;
+    padding-bottom: 6.5em;
+ 
+  }
+}

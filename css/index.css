@@ -522,5 +522,13 @@ footer {
     width: 530px;
     height: 320px;
   }
+
+  footer {
+    display: flex;
+  }
+
+  .footer-right p {
+    display: block;
+  }
   
 }

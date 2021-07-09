@@ -58,6 +58,14 @@ header {
   width: 100%;
 }
 
+.blog-responsive a {
+  text-decoration: none;
+}
+
+.blog-responsive h2 {
+  color: black;
+}
+
 .blog1 {
   margin-right: 20px;
   margin-bottom: 50px;
@@ -136,4 +144,36 @@ footer {
   padding-right: 1em;
   border-right: 1px solid white;
   color: white;
+}
+
+@media screen and (max-width:768px){
+  .blog1 {
+    margin: 0 auto;
+  }
+  .blog2 {
+    margin: 0 auto;
+  }
+  .blog4 {
+    margin: 0 auto;
+  }
+  .blog5 {
+    margin: 0 auto;
+  }
+
+  .blog-responsive {
+    margin-bottom: 70px;
+  }
+
+  .blog-responsive p {
+    margin-top: 10px;
+  }
+
+  .blog-responsive h2 {
+    margin-top: 10px;
+  }
+
+  .blog-responsive img {
+    width: 600px;
+    height: 350px;
+  }
 }

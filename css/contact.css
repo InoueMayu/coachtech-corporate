@@ -52,6 +52,14 @@ header {
   width: 100%;
 }
 
+.contact-form label {
+  display: block;
+  width: 80%;
+  padding-left: 200px;
+  text-align: left;
+  font-weight: bold;
+}
+
 input {
   width: 70%;
   margin-bottom: 20px;
