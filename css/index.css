@@ -2,20 +2,21 @@ header {
   background-color: white;
   height: 70px;
   margin-bottom: 30px;
-  position: fixed;
+  display: flex;
   width: 100%;
-  z-index: 10;
+  position: fixed;
+  z-index:  10;
 }
 
 .header-right {
-  float: right;
   margin-top: 25px;
+  margin-left: auto;
 }
 
 .header-left {
-  float: left;
   padding-top: 30px;
   margin-left: 15px;
+ 
 }
 
 .header-left img {
@@ -389,17 +390,15 @@ footer {
 }
 
 .footer-left {
-  float: left;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 200px;
+  padding-right: 300px;
   font-size: 11px;
   color: white;
-  margin-right: 450px;
 }
 
 .footer-right {
-  float: right;
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 11px;
@@ -411,9 +410,15 @@ footer {
   display: inline-block;
   margin-left: 15px;
   padding-right: 1em;
-  border-right: 1px solid white;
+  
   color: white;
 }
+
+.border {
+  border-right: 1px solid white;
+}
+
+
 
 @media screen and (max-width:768px){
 
@@ -525,10 +530,13 @@ footer {
 	
 	 footer {
     display: flex;
+    height: 200px;
   }
 
   .footer-right p {
     display: block;
+    padding-bottom: 15px;
+    border: none;
   }
   
 }
