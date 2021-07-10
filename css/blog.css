@@ -1,3 +1,7 @@
+.wrap {
+  overflow: hidden;
+}
+
 header {
   background-color: white;
   height: 70px;
@@ -175,6 +179,7 @@ footer {
     background: #eee;
     transition: .7s;
     text-align: center;
+    display: block;
   }
   .nav ul{
     padding-top: 80px;
@@ -184,6 +189,10 @@ footer {
     margin-top: 50px;
   }
 
+  .in{
+    transform: translateX(100%);
+  }
+  
   .menu {
     display: inline-block;
     width: 36px;
